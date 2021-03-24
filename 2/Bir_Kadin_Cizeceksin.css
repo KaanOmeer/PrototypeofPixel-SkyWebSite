@@ -1,0 +1,256 @@
+* {
+  margin: 0;
+}
+html, body {
+  height: 100%;
+}
+
+body{
+  background:#F78200 url(http://fatihhayrioglu.com/dokumanlar/images/genel_zr.gif) top left repeat-y;
+  font-size:62.5%;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+/* usalan tanimlari */
+#ustAlan {
+  height: 3em;
+  background-color:#CCCCCC;
+}
+
+/* icerik alani */
+.kapsul {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -4em; /* footer yukseklik degeri ile ayn olmali */
+}
+
+#solAlan {
+  float: left;
+  clear:both;
+  width: 15em;
+  height: 15em;
+  margin-bottom: 1em;
+}
+
+#icerikAlani {
+  margin: 0 0 1em 16em;
+  font:1.1em Arial, Helvetica, sans-serif;
+}
+
+#icerikAlani:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+#icerikAlani {
+  display: inline-block;
+}
+
+* html #icerikAlani {
+  height: 1%;
+}
+
+#altAlan, .tampon {
+  height: 4em; /* .tampon ile altAlan yuksekligi ayni olmali */
+}
+
+#altAlan{
+  text-align:center;
+  color:#036;
+  background-color:#cfc;
+}
+a.buton{
+    background:#2981E4;
+    padding:5px 10px;
+    text-decoration:none;
+    color:#fff;
+    font:bold 14px Arial, Helvetica, sans-serif;
+}
+a.buton{
+    background:#2981E4;
+    padding:5px 10px;
+    text-decoration:none;
+    color:#fff;
+    font:bold 14px Arial, Helvetica, sans-serif;
+    border-radius: 7px;
+}
+a.buton{
+    background:#2981E4;
+    padding:5px 10px;
+    text-decoration:none;
+    color:#fff;
+    font:bold 20px Arial, Helvetica, sans-serif;
+    border-radius: 7px;
+    box-shadow: 3px 3px 4px #000;
+}
+a.buton{
+    background:#2981E4;
+    padding:5px 10px;
+    text-decoration:none;
+    color:#fff;
+    font:bold 20px Arial, Helvetica, sans-serif;
+    border-radius: 7px;
+    box-shadow: 0 1px 2px #000;
+    text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.25);
+}
+a.buton:hover{
+    background-color:#006699;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+}
+a.button{
+background:#2981E4;
+    padding:5px 10px;
+    text-decoration:none;
+    color:#fff;
+    font:bold 14px Arial, Helvetica, sans-serif;
+	}
+	a.button{
+    background:#2981E4;
+    padding:5px 10px;
+    text-decoration:none;
+    color:#fff;
+    font:bold 14px Arial, Helvetica, sans-serif;
+    border-radius: 7px;
+}
+a.button{
+    background:#2981E4;
+    padding:5px 10px;
+    text-decoration:none;
+    color:#fff;
+    font:bold 20px Arial, Helvetica, sans-serif;
+    border-radius: 7px;
+    box-shadow: 3px 3px 4px #000;
+}
+a.button{
+    background:#2981E4;
+    padding:5px 10px;
+    text-decoration:none;
+    color:#fff;
+    font:bold 20px Arial, Helvetica, sans-serif;
+    border-radius: 7px;
+    box-shadow: 0 1px 2px #000;
+    text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.25);
+}
+a.button:hover{
+    background-color:#006699;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+}
+a.buttn{
+background:#2981E4;
+    padding:5px 10px;
+    text-decoration:none;
+    color:#fff;
+    font:bold 14px Arial, Helvetica, sans-serif;
+	}
+	a.buttn{
+    background:#2981E4;
+    padding:5px 10px;
+    text-decoration:none;
+    color:#fff;
+    font:bold 14px Arial, Helvetica, sans-serif;
+    border-radius: 7px;
+}
+a.buttn{
+    background:#2981E4;
+    padding:5px 10px;
+    text-decoration:none;
+    color:#fff;
+    font:bold 20px Arial, Helvetica, sans-serif;
+    border-radius: 7px;
+    box-shadow: 3px 3px 4px #000;
+}
+a.buttn{
+    background:#2981E4;
+    padding:5px 10px;
+    text-decoration:none;
+    color:#fff;
+    font:bold 20px Arial, Helvetica, sans-serif;
+    border-radius: 7px;
+    box-shadow: 0 1px 2px #000;
+    text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.25);
+}
+a.buttn:hover{
+    background-color:#006699;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+}
+a.butn{
+background:#2981E4;
+    padding:5px 10px;
+    text-decoration:none;
+    color:#fff;
+    font:bold 14px Arial, Helvetica, sans-serif;
+	}
+	a.butn{
+    background:#2981E4;
+    padding:5px 10px;
+    text-decoration:none;
+    color:#fff;
+    font:bold 14px Arial, Helvetica, sans-serif;
+    border-radius: 7px;
+}
+a.butn{
+    background:#2981E4;
+    padding:5px 10px;
+    text-decoration:none;
+    color:#fff;
+    font:bold 20px Arial, Helvetica, sans-serif;
+    border-radius: 7px;
+    box-shadow: 3px 3px 4px #000;
+}
+a.butn{
+    background:#2981E4;
+    padding:5px 10px;
+    text-decoration:none;
+    color:#fff;
+    font:bold 20px Arial, Helvetica, sans-serif;
+    border-radius: 7px;
+    box-shadow: 0 1px 2px #000;
+    text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.25);
+}
+a.butn:hover{
+    background-color:#006699;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+}
+a.btn{
+background:#2981E4;
+    padding:5px 10px;
+    text-decoration:none;
+    color:#fff;
+    font:bold 14px Arial, Helvetica, sans-serif;
+	}
+	a.btn{
+    background:#2981E4;
+    padding:5px 10px;
+    text-decoration:none;
+    color:#fff;
+    font:bold 14px Arial, Helvetica, sans-serif;
+    border-radius: 7px;
+}
+a.btn{
+    background:#2981E4;
+    padding:5px 10px;
+    text-decoration:none;
+    color:#fff;
+    font:bold 20px Arial, Helvetica, sans-serif;
+    border-radius: 7px;
+    box-shadow: 3px 3px 4px #000;
+}
+a.btn{
+    background:#2981E4;
+    padding:5px 10px;
+    text-decoration:none;
+    color:#fff;
+    font:bold 20px Arial, Helvetica, sans-serif;
+    border-radius: 7px;
+    box-shadow: 0 1px 2px #000;
+    text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.25);
+}
+a.btn:hover{
+    background-color:#006699;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+}
